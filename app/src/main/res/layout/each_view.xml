@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Main Title -->
+    <TextView
+        android:id="@+id/TheID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Repo List ID"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:paddingVertical="12dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Repo Title -->
+    <TextView
+        android:id="@+id/RepoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="The Title of The Repo"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:fontFamily="sans-serif"
+        android:background="#000000"
+        android:layout_marginTop="10dp" />
+
+    <!-- Creation Date -->
+    <TextView
+        android:id="@+id/CreateDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Create Date:"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-light" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Description"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>
